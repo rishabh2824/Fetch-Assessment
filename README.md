@@ -39,3 +39,5 @@ Below are the Endpoints:
 
 
 NOTE: The write up for the asssessment had contradicting information. In the instructions it said we have to return the payer names and the points subtracted for each payer in the spend endpoint. However, in the test case it said that we have to call the /balance endpoint. In my solution I have followed the original instructions.
+
+The word document "Part2docx" contains answers to the questions in Part 2 of the assessment.
