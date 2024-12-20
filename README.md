@@ -7,7 +7,7 @@ Also make sure you have a suitable editor. https://code.visualstudio.com/docs/se
 Once you have the environment setup, run the below commands in the IDE terminal:
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 Finally, you can test the API by sending requests! 
@@ -15,7 +15,7 @@ You can use a tool like Postman to send requests: https://www.postman.com/downlo
 
 Below are the Endpoints:
 
-&emsp; Endpoint: /add
+&emsp; Endpoint: http://127.0.0.1:8000/add
 
 &emsp;&emsp; Method: POST
 
@@ -23,7 +23,7 @@ Below are the Endpoints:
 
 &emsp;&emsp; {"payer" : "DANNON", "points" : 5000, "timestamp" : "2020-11-02T14:00:00Z"}
 
-&emsp; Endpoint: /spend
+&emsp; Endpoint: http://127.0.0.1:8000/spend
 
 &emsp;&emsp; Method: POST
 
@@ -31,7 +31,7 @@ Below are the Endpoints:
 
 &emsp;&emsp; {"points" : 5000}
 
-&emsp; Endpoint: /balance
+&emsp; Endpoint: http://127.0.0.1:8000/balance
 
 &emsp;&emsp; Method: GET
 
